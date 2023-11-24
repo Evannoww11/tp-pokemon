@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokedex</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
+    <nav>
+        <ul>
+            <a href="/pokedex.html"><img src="Poke.png" alt=""></a>
+            <li><a href="pokedex2.html">Accueil</a></li>
+            <li><a href="generation.html">Génération</a></li>
+            <li><a href="type.html">Type</a></li>
+            <div class="form-control">
+                <input class="input input-alt" placeholder="Barre de recherche" required="" type="text">
+                <span class="input-border input-border-alt"></span>
+            </div>
+
+        </ul>
+    </nav>
+</head>
+
+<body>
+    
+
+    <div id="poke_container" class="poke-container">
+
+        <div id="selecttype">
+
+            <label for="typeeration">Choisir un type :</label><select id="type" name="type" onchange="selectionner(type)">
+                <option value="type1">Type 1</option>
+                <option value="type2">Type 2</option>
+                <option value="type3">Type 3</option>
+                <option value="type4">Type 4</option>
+                <option value="type5">Type 5</option>
+                <option value="type6">Type 6</option>
+                <option value="type7">Type 7</option>
+                <option value="type8">Type 8</option>
+                <option value="type9">Type 9</option>
+            </select>
+<br>
+<br>
+
+        </div>
+        <div id="bloc-type-1" class="bloc-type"> 
+
+        </div>
+        <div id="bloc-type-2" class="bloc-type">
+
+        </div>
+        <div id="bloc-type-3" class="bloc-type">
+
+        </div>
+        <div id="bloc-type-4" class="bloc-type">
+
+        </div>
+        <div id="bloc-type-5" class="bloc-type">
+
+        </div>
+        <div id="bloc-type-6" class="bloc-type">
+
+        </div>
+        <div id="bloc-type-7" class="bloc-type">
+
+        </div> 
+        <div id="bloc-type-8" class="bloc-type">
+
+        </div>
+        <div id="bloc-type-9" class="bloc-type">
+
+        </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src='type.js'></script>
+</body>
+
+</html>

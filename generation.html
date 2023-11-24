@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokedex</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
+    <nav>
+        <ul>
+            <a href="/pokedex.html"><img src="Poke.png" alt=""></a>
+            <li><a href="pokedex2.html">Accueil</a></li>
+            <li><a href="generation.html">Génération</a></li>
+            <li><a href="type.html">Type</a></li>
+            <div class="form-control">
+                <input class="input input-alt" placeholder="Barre de recherche" required="" type="text">
+                <span class="input-border input-border-alt"></span>
+            </div>
+
+        </ul>
+    </nav>
+</head>
+
+<body>
+
+    <div id="poke_container" class="poke-container">
+
+        <div id="selectGen">
+
+            <label for="generation">Choisir une génération :</label><select id="generation" name="generation"
+                onchange="selectionner(generation)">
+                <option value="gen1">Génération 1</option>
+                <option value="gen2">Génération 2</option>
+                <option value="gen3">Génération 3</option>
+                <option value="gen4">Génération 4</option>
+                <option value="gen5">Génération 5</option>
+                <option value="gen6">Génération 6</option>
+                <option value="gen7">Génération 7</option>
+                <option value="gen8">Génération 8</option>
+                <option value="gen9">Génération 9</option>
+            </select>
+            <br>
+            <br>
+
+        </div>
+        <div id="bloc-gen-1" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-2" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-3" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-4" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-5" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-6" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-7" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-8" class="bloc-gen">
+
+        </div>
+        <div id="bloc-gen-9" class="bloc-gen">
+
+        </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src='generation.js'></script>
+</body>
+
+</html>
